@@ -41,9 +41,12 @@ Exit when, all cells have been propagated.
 Folder HardEgs contains example of hard sudokus. 
 
 #####Advanced Techniques from Literature
-Sudoku solving is one of the hard problems that possess combinatarial explosion sin, while doing space search. Simple brute force is going to definitely very long time, creating need for heuristics.
+Sudoku solving is one of the hard problems that possess combinatarial explosion sin, while doing space search. Direct brute force takes very long time in space search. This created need for heuristics based methods. Due to time contraints, I couldn't self program them but could test their various versions available on web.
+
 - [Norvig introduces backtracking search] (http://norvig.com/sudoku.html)
 - [Dancing DLX method introduced by Donalt Knuth] (http://www.tgmdev.be/dlxsolver.php)
+- [Stochastic optimization approaches for solving sudoku] (http://arxiv.org/pdf/0805.0697)
+- [Combination of contrainst propogation and stochastic methods] (http://orca.cf.ac.uk/27751)
 
 
 #####References
