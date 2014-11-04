@@ -10,7 +10,7 @@ Constraint propogation only works on the easy-medium level sudokus. It doesn't c
 
 #####Instruction for use
 On terminal, run the command
-<pre><code> python Sudoku_test.py ./sampleFiles/Eg_sudoku2.csv result.csv </pre></code>
+<pre><code> python sudokuSolver.py ./sampleFiles/Eg_sudoku2.csv result.csv </pre></code>
 
 where solveSudoku.py is the script containing the algorithm and input.csv is sudoku inpute file (9x9 format, where 0 represents blank cell) and result.csv is the final solution to the sudoku
 
