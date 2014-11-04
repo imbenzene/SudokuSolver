@@ -6,7 +6,7 @@ The algorithm uses constraint propogation as a method to eliminate multiple entr
 - If a square has only one possible value, then eliminate that value from that cell's neighbors
 - When a cell has just one possible value, substitue that value there.
 
-Constraint propogation only works on the easy-medium level sudokus. It doesn't converge for the hard sudokus (sample files given in the folder). Further discussed advanced algorithms and heuristics for solving hard sudokus, which I couldn't implement in current version of the program due to time constraints.
+Constraint propogation only works on the easy-medium level sudokus. It doesn't converge for the hard sudoku's (sample files given in the folder). Further discussed advanced algorithms and heuristics for solving hard sudoku's, which I couldn't implement in current version of the program due to time constraints.
 
 #####Instruction for use
 On terminal, run the command
