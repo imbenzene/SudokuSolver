@@ -10,7 +10,7 @@ Constraint propogation only works on the easy-medium level sudokus. It doesn't c
 
 #####Instruction for use
 On terminal, run the command
-python Sudoku_test.py ./sampleFiles/Eg_sudoku2.csv res.csv
+<pre><code> python Sudoku_test.py ./sampleFiles/Eg_sudoku2.csv res.csv </pre></code>
 
 where solveSudoku.py is the script containing the algorithm and input.csv is sudoku inpute file (9x9 format, where 0 represents blank cell) and result.csv is the final solution to the sudoku
 
@@ -23,14 +23,15 @@ Python 2.7 or 3.4
 
 
 #####Algorithm (Pseduo-code)
--Iterate through list of unsolved cells
--Check dictionary for number possible values, if number is equal to 1
--Cell is solved
--else
--Check neighbors for the cell and remove the value currently being iterated the cell's neighbors
--Recursive call for the same function
--Exit when, all cells have been propagated.
-
+<pre><code>
+Iterate through list of unsolved cells
+  Check dictionary for number possible values, if number is equal to 1
+    Cell is solved
+  else
+    Check neighbors for the cell and remove the value currently being iterated the cell's neighbors
+  Recursive call for the same function
+Exit when, all cells have been propagated.
+</pre></code>
 
 
 #####Sample Files
