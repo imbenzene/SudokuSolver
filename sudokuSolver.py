@@ -3,6 +3,8 @@
 Created on Fri Oct 31 06:13:28 2014
  
 @author: imbenzene
+
+Reference: Peter Norvig's Sudoku Program
 """
 
 #Imported Libraries
