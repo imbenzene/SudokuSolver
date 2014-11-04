@@ -37,8 +37,8 @@ Exit when, all cells have been propagated.
 #####Sample Files
 - Eg_sudoku1.csv -- solution is obtained
 - Eg_sudoku1.csv -- solution is obtained
-- Eg_notSolve1.csv -- current program is unable to solve this
-- Eg_notSolve1.csv -- current program is unable to solve this
+
+Folder HardEgs contains example of hard sudokus. 
 
 #####Advanced Techniques from Literature
 Sudoku solving is one of the hard problems that possess combinatarial explosion sin, while doing space search. Simple brute force is going to definitely very long time, creating need for heuristics.
