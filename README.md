@@ -42,8 +42,8 @@ Exit when, all cells have been propagated.
 
 #####Advanced Techniques from Literature
 Sudoku solving is one of the hard problems that possess combinatarial explosion sin, while doing space search. Simple brute force is going to definitely very long time, creating need for heuristics.
-- Norvig introduces backtracking search <http://norvig.com/sudoku.html>
-- Dancing DLX method introduced by Donalt Knuth
+- [Norvig introduces backtracking search] (http://norvig.com/sudoku.html)
+- [Dancing DLX method introduced by Donalt Knuth] (http://www.tgmdev.be/dlxsolver.php)
 
 
 #####References
