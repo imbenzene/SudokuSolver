@@ -1,4 +1,4 @@
-Sudoku Solver Program-- Using Constraint Propagation Algorithm
+###Sudoku Solver Program-- Using Constraint Propagation Algorithm
 =======================================================================
 
 #####Description
@@ -24,13 +24,12 @@ Python 2.7 or 3.4
 
 #####Algorithm (Pseduo-code)
 -Iterate through list of unsolved Cells
-	-Check dictionary for number possible values, if # == 1
-	-	Cell is solved
-	-else
-	-	Check neighbors for the cell and remove the value currently being iterated the cell's neighbors
-	-Recursive call for the same function
-
-	-Exit when, all cells have been propagated.
+-Check dictionary for number possible values, if number == 1
+-	Cell is solved
+-else
+-	Check neighbors for the cell and remove the value currently being iterated the cell's neighbors
+-Recursive call for the same function
+-Exit when, all cells have been propagated.
 
 
 
