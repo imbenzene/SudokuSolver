@@ -23,8 +23,8 @@ Python 2.7 or 3.4
 
 
 #####Algorithm (Pseduo-code)
--Iterate through list of unsolved Cells
--Check dictionary for number possible values, if number == 1
+-Iterate through list of unsolved cells
+-Check dictionary for number possible values, if number is equal to 1
 -	Cell is solved
 -else
 -	Check neighbors for the cell and remove the value currently being iterated the cell's neighbors
